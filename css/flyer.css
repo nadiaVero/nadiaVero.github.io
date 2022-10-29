@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+html,main,body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-size: 100%; */
+   
+    background-image: url("/img/primavera.jpg");
+    
+}
+
+
+.flyer_contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+/* .flyer_contenedor p {
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: bold;
+    text-align: center ;
+    align-content: center;
+    flex: 1 0 120px;
+    max-width: 220px;
+
+} */
+main h1, h2 {
+    font-weight:bold;
+   /* margin-bottom: .5em;*/
+    text-align: center;
+    margin-top: 2.5em;
+    color:rgb(207, 37, 179);
+    font-size: 15vh;
+    border-style: dotted;
+    border-color: white;
+    vertical-align: sub;
+
+ 
+    }

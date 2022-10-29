@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <script src="https://kit.fontawesome.com/90b9c3f0b0.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="img/logo.ico">
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="menu">
+      <div class="logo">
+        <a href=""><img src="img/logo.JPG" alt=""></a>
+        <a class="btn-menu" id="btn-menu"><i class=" icono fa-solid fa-bars"></i></a>
+      </div>
+      <div class="enlaces" id="enlaces">
+        <a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i> Home</a>
+        <a href="Tienda.html"><i class="fa-solid fa-shirt"></i> Tienda</a>
+        <a href="formas_De_pago.html"><i class="fa-regular fa-credit-card"></i>Formas de pago</a>
+        <a href="Contacto.html"><i class="fa-solid fa-file-signature"></i> Contacto</a>
+        <a href="pgts.html"><i class="fa-solid fa-circle-question"></i>Preguntas frecuentes</a>
+        <a href="cambio.html"><i class="fa-solid fa-rotate-left"></i>Politicas de devolucion</a></div>
+    </nav>
+  </header>
+  <main>
+    <iframe src="flyer.html" title="primavera verano">
+    </iframe>
+
+    <h1>Contacto</h1>
+    <hr>
+    <div class="container">
+      <form class="form contact-form form-area" id="form">
+
+        <ul class="flex-outer">
+          <li>
+
+            <input type="text" id="nombre" name="nombre" title="El nombre solo acepta letras y espacios en blanco"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" placeholder="Ingresa tu nombre">
+          </li>
+          <li>
+
+            <input type="text" id="apellido" name="apellido" title="El apellido solo acepta letras y espacios en blanco"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" placeholder="Ingresa tu apellido">
+          </li>
+          <li>
+
+            <input type="email" id="email" name="mail" placeholder="Ingresar mail" title="Email incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
+          </li>
+          <li>
+
+            <textarea cols="50" rows="6" id="mensaje" name="mensaje" data-pattern:=" ^.{1,255}$"
+              placeholder="Ingresar el mensaje" title="Tu comentario no debe exceder los 255 caracteres"></textarea>
+          </li>
+          <li>
+            <button type="submit">Enviar</button> <br>
+            <p class="warnings" id="warnings"></p>
+
+    </div>
+
+    </li>
+
+    </ul>
+
+
+    </form>
+    </div>
+
+  </main>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/headroom.min.js"></script>
+  <script src="js/menu.js"></script>
+  <!-- <script src="js/index_dom.js" type="module"></script> -->
+  <script src="js/validacion_formulario.js"></script>
+
+  <footer>
+    <!-- <a href="http://" class="insta"><i class="fa-brands fa-instagram"></i></a> -->
+    <div class="redes">
+
+
+      <a class="footer-icon rounded-icon" href="https://instagram.com/tabatha.jeans" target="_blank"
+        aria-label="Seguinos en instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a class="footer-icon rounded-icon" href="https://www.facebook.com/tabathajeans" target="_blank"
+        aria-label="Seguinos en facebook">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <span>
+        <h4>Todos los derechos reservados ® Grupo 13</h4>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
